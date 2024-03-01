@@ -28,3 +28,9 @@ C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\refint\WebAp
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date

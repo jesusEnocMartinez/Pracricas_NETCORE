@@ -2,15 +2,20 @@ using WebApplication1.Service.ServiceInterface;
 using WebApplication1.Service;
 using WebApplication1.Repository.RepositoryInterface;
 using WebApplication1.Repository;
+using Microsoft.EntityFrameworkCore;
+using WebApplication1.Singleton.WebApplication1.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Registra servicios aquí
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
-// Asegúrate de registrar tus servicios personalizados antes de llamar a Build()
 builder.Services.AddScoped<IMensajeService, MensajeService>();
 builder.Services.AddScoped<IMensajeRepository, MensajeRepository>();
+builder.Services.AddScoped<IProductoService, ProductoService>();
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
+
+// Configura aquí tu DbContext para usar una base de datos en memoria
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseInMemoryDatabase("NombreBaseDatosEnMemoria"));
 
 var app = builder.Build();
 
