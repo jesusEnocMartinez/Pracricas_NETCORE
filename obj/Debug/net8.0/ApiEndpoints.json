@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controller.MensajeController",
+    "Method": "ObtenerMensaje",
+    "RelativePath": "api/v1/mensaje",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
