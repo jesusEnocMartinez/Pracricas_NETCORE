@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Service.ServiceInterface
+﻿namespace WebApplication1.MVC.Service.ServiceInterface
 {
     public interface IMensajeService
     {

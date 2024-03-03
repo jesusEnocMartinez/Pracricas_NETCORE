@@ -1,6 +1,6 @@
 ﻿namespace WebApplication1.Singleton
 {
-    using global::WebApplication1.Model;
+    using global::WebApplication1.MVC.Model;
     using Microsoft.EntityFrameworkCore;
 
     namespace WebApplication1.Data

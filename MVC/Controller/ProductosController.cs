@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Model;
-using WebApplication1.Service.ServiceInterface;
+using WebApplication1.MVC.Model;
+using WebApplication1.MVC.Service.ServiceInterface;
 
-namespace WebApplication1.Controller
+namespace WebApplication1.MVC.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -33,18 +33,28 @@ namespace WebApplication1.Controller
         [HttpPut("{id}")]
         public async Task<IActionResult> Actualizar(int id, [FromBody] Producto producto)
         {
-            if (id != producto.ProductoId) return BadRequest();
+            if (id != producto.ProductoId)
+            {
+                return BadRequest(new { mensaje = "El ID proporcionado no coincide con el ID del producto." });
+            }
+
             await _productoService.ActualizarProducto(producto);
-            return NoContent();
+            return Ok(new { mensaje = "Producto actualizado correctamente." });
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Eliminar(int id)
         {
             var exito = await _productoService.EliminarProducto(id);
-            if (!exito) return NotFound();
-            return NoContent();
+            if (!exito)
+            {
+                return NotFound(new { mensaje = "Producto no encontrado." });
+            }
+
+            return Ok(new { mensaje = "Producto eliminado correctamente." });
         }
+
 
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()

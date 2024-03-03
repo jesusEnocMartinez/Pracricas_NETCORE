@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication1.Model;
-using WebApplication1.Repository.RepositoryInterface;
+using WebApplication1.MVC.Model;
+using WebApplication1.MVC.Repository.RepositoryInterface;
 using WebApplication1.Singleton.WebApplication1.Data;
 
-namespace WebApplication1.Repository
+namespace WebApplication1.MVC.Repository
 {
     public class ProductoRepository : IProductoRepository
     {

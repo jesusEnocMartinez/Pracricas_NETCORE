@@ -1,6 +1,6 @@
-﻿using WebApplication1.Model;
+﻿using WebApplication1.MVC.Model;
 
-namespace WebApplication1.Repository.RepositoryInterface
+namespace WebApplication1.MVC.Repository.RepositoryInterface
 {
     public interface IProductoRepository
     {

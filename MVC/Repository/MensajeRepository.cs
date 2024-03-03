@@ -1,6 +1,6 @@
-﻿using WebApplication1.Repository.RepositoryInterface;
+﻿using WebApplication1.MVC.Repository.RepositoryInterface;
 
-namespace WebApplication1.Repository
+namespace WebApplication1.MVC.Repository
 {
     public class MensajeRepository : IMensajeRepository
     {

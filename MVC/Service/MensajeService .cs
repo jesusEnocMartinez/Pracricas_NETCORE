@@ -1,7 +1,7 @@
-﻿using WebApplication1.Repository.RepositoryInterface;
-using WebApplication1.Service.ServiceInterface;
+﻿using WebApplication1.MVC.Repository.RepositoryInterface;
+using WebApplication1.MVC.Service.ServiceInterface;
 
-namespace WebApplication1.Service
+namespace WebApplication1.MVC.Service
 {
     public class MensajeService : IMensajeService
 

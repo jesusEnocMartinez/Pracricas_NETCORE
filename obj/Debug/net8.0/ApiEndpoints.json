@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "WebApplication1.Controller.ProductosController",
+    "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
     "Method": "Crear",
     "RelativePath": "api/Productos",
     "HttpMethod": "POST",
@@ -9,14 +9,14 @@
     "Parameters": [
       {
         "Name": "producto",
-        "Type": "WebApplication1.Model.Producto",
+        "Type": "WebApplication1.MVC.Model.Producto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication1.Controller.ProductosController",
+    "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
     "Method": "ObtenerTodos",
     "RelativePath": "api/Productos",
     "HttpMethod": "GET",
@@ -26,7 +26,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication1.Controller.ProductosController",
+    "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
     "Method": "ObtenerPorId",
     "RelativePath": "api/Productos/{id}",
     "HttpMethod": "GET",
@@ -42,7 +42,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication1.Controller.ProductosController",
+    "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
     "Method": "Actualizar",
     "RelativePath": "api/Productos/{id}",
     "HttpMethod": "PUT",
@@ -56,14 +56,14 @@
       },
       {
         "Name": "producto",
-        "Type": "WebApplication1.Model.Producto",
+        "Type": "WebApplication1.MVC.Model.Producto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication1.Controller.ProductosController",
+    "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
     "Method": "Eliminar",
     "RelativePath": "api/Productos/{id}",
     "HttpMethod": "DELETE",
@@ -79,7 +79,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication1.Controller.MensajeController",
+    "ContainingType": "WebApplication1.MVC.Controller.MensajeController",
     "Method": "ObtenerMensaje",
     "RelativePath": "api/v1/mensaje",
     "HttpMethod": "GET",

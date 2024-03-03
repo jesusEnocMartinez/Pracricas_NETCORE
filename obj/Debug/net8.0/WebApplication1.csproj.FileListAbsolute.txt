@@ -34,3 +34,15 @@ C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Microsoft.En
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\System.Web.Http.WebHost.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Swashbuckle.Core.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\WebActivatorEx.dll
+C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs

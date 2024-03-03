@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\controller\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:controller\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\config\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:config\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\controller\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:controller\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Config\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "Config\\ConfigureServices.cs",
+              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Config\\ConfigureServices.cs",
+              "RelativeToolTip": "Config\\ConfigureServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T06:13:22.894Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,35 +45,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAA0AAABGAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:29:29.789Z",
+              "WhenOpened": "2024-03-03T06:08:54.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MensajeController.cs",
-              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Controller\\MensajeController.cs",
-              "RelativeDocumentMoniker": "Controller\\MensajeController.cs",
-              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Controller\\MensajeController.cs",
-              "RelativeToolTip": "Controller\\MensajeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:24:48.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Controller\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controller\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Controller\\ProductosController.cs",
-              "RelativeToolTip": "Controller\\ProductosController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA5wAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:24:26.238Z",
+              "Title": "WebApplication1",
+              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-03T06:05:27.909Z",
               "EditorCaption": ""
             }
           ]

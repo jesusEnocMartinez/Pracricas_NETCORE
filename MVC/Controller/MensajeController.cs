@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Service.ServiceInterface;
+using WebApplication1.MVC.Service.ServiceInterface;
 
-namespace WebApplication1.Controller
+namespace WebApplication1.MVC.Controller
 {
     [ApiController]
     [Route("api/v1")]
@@ -18,7 +18,7 @@ namespace WebApplication1.Controller
         public IActionResult ObtenerMensaje()
         {
             var mensaje = _mensajeService.ObtenerMensaje();
-            return Ok(new { mensaje = mensaje });
+            return Ok(new { mensaje });
         }
     }
 }

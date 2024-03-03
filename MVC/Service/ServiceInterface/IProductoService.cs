@@ -1,6 +1,6 @@
-﻿using WebApplication1.Model;
+﻿using WebApplication1.MVC.Model;
 
-namespace WebApplication1.Service.ServiceInterface
+namespace WebApplication1.MVC.Service.ServiceInterface
 {
     public interface IProductoService
     {

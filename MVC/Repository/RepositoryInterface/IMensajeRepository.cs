@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Repository.RepositoryInterface
+﻿namespace WebApplication1.MVC.Repository.RepositoryInterface
 {
     public interface IMensajeRepository
     {
