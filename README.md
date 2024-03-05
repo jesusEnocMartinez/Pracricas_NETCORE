@@ -8,4 +8,8 @@ Evidencia version 1, manejo de mensajes de errores en CRUD
 Se agrego documentacion de swagger 
 ![image](https://github.com/jesusEnocMartinez/Pracricas_NETCORE/assets/54125340/93962ac7-72c6-4043-b546-972154deb5f9)
 
+Puebas Unitarias
+![image](https://github.com/jesusEnocMartinez/Pracricas_NETCORE/assets/54125340/c6ac042c-41ba-4068-9456-9cd9ece6c03a)
+
+
 
