@@ -31,16 +31,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapRazorPages();
 app.MapControllers();
-
-// Configuración del pipeline HTTP y cualquier otro ajuste debe hacerse después de Build()
-// Asegúrate de llamar a UseSwagger y UseSwaggerUI después de Build()
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
