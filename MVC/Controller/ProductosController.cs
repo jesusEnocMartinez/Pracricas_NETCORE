@@ -15,6 +15,14 @@ namespace WebApplication1.MVC.Controller
             _productoService = productoService;
         }
 
+        /// <summary>
+        /// Crea un nuevo producto.
+        /// </summary>
+        /// <param name="producto">El producto a crear.</param>
+        /// <returns>El producto creado con el ID asignado.</returns>
+        /// <response code="201">Retorna el producto recién creado.</response>
+        /// <response code="400">Si el producto es nulo.</response>
+        
         [HttpPost]
         public async Task<IActionResult> Crear([FromBody] Producto producto)
         {
@@ -22,6 +30,15 @@ namespace WebApplication1.MVC.Controller
             return CreatedAtAction(nameof(ObtenerPorId), new { id = creado.ProductoId }, creado);
         }
 
+
+        /// <summary>
+        /// Obtiene un producto por su ID.
+        /// </summary>
+        /// <param name="id">El ID del producto a obtener.</param>
+        /// <returns>El producto solicitado.</returns>
+        /// <response code="200">Si el producto fue encontrado.</response>
+        /// <response code="404">Si el producto no fue encontrado.</response>
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> ObtenerPorId(int id)
         {
@@ -29,6 +46,16 @@ namespace WebApplication1.MVC.Controller
             if (producto == null) return NotFound();
             return Ok(producto);
         }
+
+        /// <summary>
+        /// Actualiza un producto existente.
+        /// </summary>
+        /// <param name="id">El ID del producto a actualizar.</param>
+        /// <param name="producto">Los datos actualizados del producto.</param>
+        /// <returns>Un mensaje indicando que el producto fue actualizado correctamente.</returns>
+        /// <response code="200">Si el producto fue actualizado exitosamente.</response>
+        /// <response code="400">Si el ID del producto no coincide con el ID en los datos del producto.</response>
+        [HttpPut("{id}")]
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Actualizar(int id, [FromBody] Producto producto)
@@ -42,6 +69,13 @@ namespace WebApplication1.MVC.Controller
             return Ok(new { mensaje = "Producto actualizado correctamente." });
         }
 
+        /// <summary>
+        /// Elimina un producto por su ID.
+        /// </summary>
+        /// <param name="id">El ID del producto a eliminar.</param>
+        /// <returns>Un mensaje indicando que el producto fue eliminado correctamente.</returns>
+        /// <response code="200">Si el producto fue eliminado exitosamente.</response>
+        /// <response code="404">Si el producto no fue encontrado.</response>
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Eliminar(int id)
@@ -55,8 +89,16 @@ namespace WebApplication1.MVC.Controller
             return Ok(new { mensaje = "Producto eliminado correctamente." });
         }
 
-
+        /// <summary>
+        /// Obtiene todos los productos disponibles.
+        /// </summary>
+        /// <remarks>
+        /// Este método de API devuelve una lista de todos los productos. 
+        /// Puede ser usado para mostrar los productos en una interfaz de usuario o para otras operaciones de consulta.
+        /// </remarks>
+        /// <response code="200">Retorna una lista de productos si la operación es exitosa.</response>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> ObtenerTodos()
         {
             var productos = await _productoService.ObtenerTodosProductos();

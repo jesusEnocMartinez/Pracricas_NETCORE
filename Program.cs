@@ -12,10 +12,9 @@ builder.Services.AddScoped<IMensajeService, MensajeService>();
 builder.Services.AddScoped<IMensajeRepository, MensajeRepository>();
 builder.Services.AddScoped<IProductoService, ProductoService>();
 builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
+
 // Llama al método ConfigureServices de tu clase ConfigServices
 WebApplication1.Config.ConfigServices.ConfigureServices(builder.Services);
-
-
 
 // Configura aquí tu DbContext para usar una base de datos en memoria
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

@@ -1,5 +1,3 @@
-C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\appsettings.json
 C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
 C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
 C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
@@ -46,3 +44,5 @@ C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Swashbuckle.
 C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\Swashbuckle.Core.dll
 C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\WebActivatorEx.dll
 C:\Users\EnocGonzalez\source\repos\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\ConfigGeneral\appsettings.Development.json
+C:\Users\EnocGonzalez\source\repos\WebApplication1\bin\Debug\net8.0\ConfigGeneral\appsettings.json
