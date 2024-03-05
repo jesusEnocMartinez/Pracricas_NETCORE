@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\mvc\\controller\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:mvc\\controller\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\configgeneral\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:configgeneral\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\ConfigGeneral\\appsettings.json",
-              "RelativeDocumentMoniker": "ConfigGeneral\\appsettings.json",
-              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\ConfigGeneral\\appsettings.json",
-              "RelativeToolTip": "ConfigGeneral\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-04T23:49:18.369Z",
+              "DocumentIndex": 0,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\MVC\\Controller\\ProductosController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controller\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\MVC\\Controller\\ProductosController.cs",
+              "RelativeToolTip": "MVC\\Controller\\ProductosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T23:58:48.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACAAAAAVAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T06:08:54.988Z",
               "EditorCaption": ""
