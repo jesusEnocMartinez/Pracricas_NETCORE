@@ -70,27 +70,6 @@
   },
   {
     "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
-    "Method": "Actualizar",
-    "RelativePath": "api/Productos/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "producto",
-        "Type": "WebApplication1.MVC.Model.Producto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApplication1.MVC.Controller.ProductosController",
     "Method": "Eliminar",
     "RelativePath": "api/Productos/{id}",
     "HttpMethod": "DELETE",

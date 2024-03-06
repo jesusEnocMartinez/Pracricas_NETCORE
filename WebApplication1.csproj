@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Config\SwaggerConfiguration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVC\Dto\" />
   </ItemGroup>
 

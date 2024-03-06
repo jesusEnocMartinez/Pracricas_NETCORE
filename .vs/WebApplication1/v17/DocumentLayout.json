@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\test\\mvc\\servicestest\\productoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:test\\mvc\\servicestest\\productoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\mvc\\controller\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:mvc\\controller\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|c:\\users\\enocgonzalez\\source\\repos\\webapplication1\\config\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2276CA7F-682C-4C48-9355-3781F44F2750}|WebApplication1.csproj|solutionrelative:config\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,31 +21,47 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 155,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductoServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Test\\MVC\\ServicesTest\\ProductoServiceTests.cs",
-              "RelativeDocumentMoniker": "Test\\MVC\\ServicesTest\\ProductoServiceTests.cs",
-              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Test\\MVC\\ServicesTest\\ProductoServiceTests.cs",
-              "RelativeToolTip": "Test\\MVC\\ServicesTest\\ProductoServiceTests.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAqwAsAAAAsAAAA",
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\MVC\\Controller\\ProductosController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controller\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\MVC\\Controller\\ProductosController.cs",
+              "RelativeToolTip": "MVC\\Controller\\ProductosController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAcwDkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T22:17:14.13Z",
+              "WhenOpened": "2024-03-06T00:07:53Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicesConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Config\\ServicesConfiguration.cs",
+              "RelativeDocumentMoniker": "Config\\ServicesConfiguration.cs",
+              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Config\\ServicesConfiguration.cs",
+              "RelativeToolTip": "Config\\ServicesConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T23:34:14.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\EnocGonzalez\\source\\repos\\WebApplication1\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T23:32:07.407Z",
+              "EditorCaption": ""
             }
           ]
         }

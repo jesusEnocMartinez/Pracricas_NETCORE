@@ -55,8 +55,7 @@ namespace WebApplication1.MVC.Controller
         /// <returns>Un mensaje indicando que el producto fue actualizado correctamente.</returns>
         /// <response code="200">Si el producto fue actualizado exitosamente.</response>
         /// <response code="400">Si el ID del producto no coincide con el ID en los datos del producto.</response>
-        [HttpPut("{id}")]
-
+     
         [HttpPut("{id}")]
         public async Task<IActionResult> Actualizar(int id, [FromBody] Producto producto)
         {
